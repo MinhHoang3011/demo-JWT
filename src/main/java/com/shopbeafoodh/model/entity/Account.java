@@ -49,4 +49,7 @@ public class Account {
         this.isEnabled = isEnabled;
         this.email = email;
     }
+
+    public Account(String userName, String encode, String email, boolean isEnabled) {
+    }
 }
